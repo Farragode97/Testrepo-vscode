@@ -2,7 +2,7 @@ name: My First Workflow
 on: 
     push:
         branches:
-            - main
+            - master
     workflow_dispatch:  #manual trigger
     #push to automatically run after commit
  #on what event workflow should run
