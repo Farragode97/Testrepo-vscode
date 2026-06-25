@@ -19,7 +19,7 @@ jobs:
         steps:  #mention tasks to be run in the job
             - name: step-name1
               run: echo "Hello World"
-             - name: multiple commands
+            - name: multiple commands
                 run: |
                     echo "Hello World"
                     echo "Hello World"
