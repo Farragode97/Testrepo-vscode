@@ -20,7 +20,7 @@ jobs:
             - name: step-name1
               run: echo "Hello World"
             - name: multiple commands
-                run: |
+              run: |
                     echo "Hello World"
                     echo "Hello World"
                     echo "Hello World"
