@@ -1,0 +1,26 @@
+name: My First Workflow
+on: 
+    push:
+        branches:
+            - main
+    workflow_dispatch:  #manual trigger
+    #push to automatically run after commit
+ #on what event workflow should run
+      #event could be manual trigger
+      #push event
+      #pull request event
+      #schedule event
+      # one workflow trigger another workflow
+      # we can givr multiple evenyts to trigger the workflow
+jobs:
+    job-name1:
+        # where should the job run
+        runs-on: ubuntu-latest  #use github hosted runner from website
+        steps:  #mention tasks to be run in the job
+            - name: step-name1
+              run: echo "Hello World"
+             - name: multiple commands
+                run: |
+                    echo "Hello World"
+                    echo "Hello World"
+                    echo "Hello World"
